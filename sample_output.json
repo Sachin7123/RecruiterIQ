@@ -1,0 +1,51 @@
+{
+  "analysisId": "demo",
+  "createdAt": "2026-05-17T12:00:00.000Z",
+  "profile": {
+    "headline": "Software Engineer | React, Node.js, AWS | 3 yrs shipping production features",
+    "about": "Full-stack engineer focused on user-facing products at early-stage startups...",
+    "skills": ["TypeScript", "React", "Node.js", "PostgreSQL", "AWS"],
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company": "NovaPay",
+        "duration": "2023 – Present",
+        "description": "Built merchant analytics dashboard (React, Node). Reduced page load 35%."
+      }
+    ],
+    "education": [{ "degree": "B.Tech Computer Science", "institution": "State University", "year": "2021" }],
+    "certifications": ["AWS Cloud Practitioner"],
+    "projects": [
+      {
+        "name": "OpenHire",
+        "description": "Open-source applicant tracker with AI resume parsing.",
+        "techStack": ["Next.js", "PostgreSQL", "Groq"],
+        "hasGithub": true,
+        "hasLiveLink": true
+      }
+    ],
+    "links": ["github.com/alexdemo"],
+    "contactInfo": {
+      "name": "Alex Chen",
+      "email": "alex.chen@example.com",
+      "location": "Remote · India",
+      "linkedinUrl": "https://linkedin.com/in/alexdemo",
+      "githubUrl": "https://github.com/alexdemo"
+    },
+    "rawText": "[Demo profile]"
+  },
+  "analysis": {
+    "overallScore": 72,
+    "sectionScores": [
+      { "section": "Headline", "score": 12, "maxScore": 15, "weight": 15, "signals": ["Role clear"], "missing": [] },
+      { "section": "Experience", "score": 14, "maxScore": 20, "weight": 20, "signals": ["Recent role"], "missing": ["Light on metrics"] }
+    ],
+    "firstImpression": "Readable mid-level IC profile within 6 seconds.",
+    "strengths": ["Headline names role and stack", "About cites real metrics", "GitHub project with traction"],
+    "weaknesses": ["Experience bullets are task-heavy", "Only one project listed"],
+    "recruiterConcerns": ["Impact numbers buried below the fold"],
+    "hireabilityAssessment": "Shortlistable for mid-level startup roles; needs louder metrics for FAANG screens.",
+    "improvementPriorities": ["Add metric to headline", "Quantify top 2 bullets", "Add second project"],
+    "profileSummary": "Mid-level full-stack engineer with credible startup experience."
+  }
+}

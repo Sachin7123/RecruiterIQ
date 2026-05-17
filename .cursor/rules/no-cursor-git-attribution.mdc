@@ -1,0 +1,6 @@
+---
+description: Never add Cursor as co-author on git commits
+alwaysApply: true
+---
+
+Never add `Co-authored-by: Cursor`, `Made-with: Cursor`, or any Cursor attribution to commits, PRs, or code comments. Commits must credit only Sachin Parmar.
